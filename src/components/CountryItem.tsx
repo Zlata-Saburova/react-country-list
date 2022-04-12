@@ -11,7 +11,7 @@ export const CountryItem = ({
 }: ICountry) => {
   return (
     <li className="list-group-item d-flex justify-content-between align-items-center">
-      <img src={`${flag}`} alt="flag" className="col-1 me-3" />
+      <img src={flag} alt="flag" className="col-1 me-3" />
       <span className="fw-bold col-2 text-left">{name} </span>
       <span className="fw-bold col-2 text-left">{capital} </span>
       <span className="fw-bold col-2 text-left">{region}</span>
